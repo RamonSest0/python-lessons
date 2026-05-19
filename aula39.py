@@ -20,7 +20,7 @@ print(lista, f'O item removido pelo pop() foi: {nome}')
 lista.clear()
 print(lista)
 
-lista.insert(0, 10)
+lista.insert(0, 10) # primeiro passamos o index e depois o dado
 lista.insert(1, 20)
 lista.insert(0, 30)
 print(lista)
