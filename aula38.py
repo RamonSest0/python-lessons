@@ -13,4 +13,5 @@ lista[2] = 30 # Update
 del lista[0] # Delete
 lista.append(5) # Create
 lista.pop() # remove o ultimo item
+lista.pop(1) # remove o item no index 1
 print(lista)
