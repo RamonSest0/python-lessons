@@ -22,7 +22,7 @@ while True:
             print(f'{i} - {item}')
         print('Item adicionado com sucesso a lista de compras.')
 
-    if do_it.lower() == 'a':
+    elif do_it.lower() == 'a':
         if lista_compras == []:
             print('Não há itens na lista para serem apagados')
             continue
@@ -37,7 +37,7 @@ while True:
             print('O item não existe na lista ou digito inválido. Tente novamente.')
             continue
 
-    if do_it.lower() == 'l':
+    elif do_it.lower() == 'l':
         for i, item in enumerate(lista_compras, start=1):
             print(f'{i} - {item}')
     
