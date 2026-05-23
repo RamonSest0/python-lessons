@@ -14,7 +14,7 @@ while True:
 
     if do_it.lower() == 'i':
         novo_item = input('Digite o item que você quer incluir na lista de compras: ')
-        if novo_item == '':
+        if novo_item == '' or novo_item == ' ':
             print('Você não digitou nada. Tente novamente.')
             continue
         lista_compras.append(novo_item)
