@@ -25,6 +25,6 @@ def par_ou_impar(num):
     else:
         return f'O número {num} é ímpar.'
     
-result_par_impar = par_ou_impar(3)
+result_par_impar = par_ou_impar(3) # ver outras formas dfe executar funções
 print(result_par_impar)
 
